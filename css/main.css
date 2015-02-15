@@ -8,14 +8,6 @@ body {
   font-size: 10px
 }
 
-h1 {
-  font-size: 4em;
-  font-family: Helvetica, arial, serif;
-  text-align: center;
-  margin-top: 5%;
-  color: #ccc;
-}
-
 form {
   background: #fff;
   padding: 4em 4em 2em;
@@ -49,6 +41,26 @@ input {
   text-align: center;
   color: #ccc;
   margin-top: 10%;
+}
+
+/**************
+HEADER
+***************/
+
+h1 {
+  font-size: 4em;
+  font-family: Helvetica, arial, serif;
+  text-align: center;
+  margin-top: 5%;
+  color: #FFF;
+  padding: 2% 0;
+}
+
+#head {
+  max-width: 480px;
+  margin: 100px auto -100px;
+  border-radius: 10px;
+  background: #2F558E;
 }
 
 /**************
